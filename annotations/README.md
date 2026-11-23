@@ -710,3 +710,46 @@ python evaluate_trend_baseline.py operator "$dataset" operator-baseline.json \
 python evaluate_trend_baseline.py paired large-trend-data paired-baseline.json \
   --corpus corpus --predictions runs/hill-large-trend/previous_signals.jsonl
 ```
+
+#### Temporal CNN on the submission panel
+
+`evaluate_temporal_cnn.py` trains a CPU classifier directly on the SCADA
+sequences used by the audited OpenTSLM run. It aligns the scoped channels by
+name and gives each channel an observed-value mask, preserving measured zeros,
+missing readings, and the original ten-minute spacing. It fits channel
+normalization on the training split. Three temporal convolutions learn features
+from six-hour and seven-day windows. The model uses the task category as an
+embedding and restricts predictions to the question's eligible answer choices.
+It outputs a label for each window.
+
+The CNN uses the same training exports and label counts as the trend logistic
+regression. It selects the epoch by validation macro F1 and then scores the
+371 archived submission windows in their original order. The report includes
+the one-hour forecast subset and paired accuracy differences, with
+turbine-cluster bootstrap intervals. The output directory contains the
+report and a PyTorch checkpoint with the weights, scaling, channel order,
+and label vocabulary.
+
+The 43,477-parameter CNN selected epoch 5 on 453 validation rows. Results
+were reproduced by reloading the saved weights and scoring the archived panel.
+
+| Method | Correct, 371 windows | Accuracy | Macro F1 | One-hour forecasts |
+| --- | ---: | ---: | ---: | ---: |
+| Temporal CNN | 275 | 74.1% | 0.676 | 54/80 |
+| Trend logistic regression | 259 | 69.8% | 0.644 | 50/80 |
+| Submission OpenTSLM | 242 | 65.2% | 0.554 | 53/80 |
+
+The paired CNN-minus-OpenTSLM accuracy difference was +8.9 percentage points
+(95% CI +4.4 to +13.6). The CNN-minus-logistic difference was +4.3 points
+(95% CI −0.3 to +9.1). The intervals resample turbines and reflect uncertainty
+on the test panel for this fitted CNN. [Per-window CNN report](trend-baseline/temporal-cnn-test.json)
+
+From the annotations directory, use the continuation export as `dataset`
+and the same audited supplement used for the logistic regression run.
+
+```bash
+python evaluate_temporal_cnn.py "$dataset" runs/temporal-cnn-submission \
+  --supplement runs/operator-qa-targets-audited \
+  --predictions runs/nebius-operator-audited-20261122/predictions.json \
+  --benchmark trend-baseline/demo-checkpoint-test.json
+```

@@ -65,7 +65,7 @@ def trend_features(series):
     return features.ravel()
 
 
-def operator_windows(path):
+def operator_windows(path, featurize=trend_features):
     with gzip.open(path, "rt") as stream:
         for line in stream:
             row = json.loads(line)
@@ -79,7 +79,7 @@ def operator_windows(path):
             yield Window(
                 category, row["turbine"], row["cutoff"], prompt,
                 row.get("label", example["answer"]), tuple(example["options"]),
-                trend_features(
+                featurize(
                     (item["name"].split(":", 1)[0], item["values"])
                     for item in example["series"]
                 ),
@@ -100,15 +100,15 @@ def paired_windows(corpus, path, split):
         )
 
 
-def read_operator_panel(args):
+def read_operator_panel(args, featurize=trend_features):
     references = json.loads(args.predictions.read_text())
     held_out = {}
     for dataset in (args.dataset, args.supplement):
-        for window in operator_windows(dataset / "test.jsonl.gz"):
+        for window in operator_windows(dataset / "test.jsonl.gz", featurize):
             previous = held_out.setdefault(window.key(), window)
             if (
                 previous.label != window.label or previous.options != window.options
-                or not np.array_equal(previous.features, window.features)
+                or not np.array_equal(previous.features, window.features, equal_nan=True)
             ):
                 raise ValueError(f"Conflicting test rows for {window.key()}")
     test, guesses = [], []
@@ -131,7 +131,7 @@ def read_operator_panel(args):
     training = (
         window
         for dataset in (args.dataset, args.supplement)
-        for window in operator_windows(dataset / "train.jsonl.gz")
+        for window in operator_windows(dataset / "train.jsonl.gz", featurize)
         if window.category in categories
     )
     return training, test, guesses
