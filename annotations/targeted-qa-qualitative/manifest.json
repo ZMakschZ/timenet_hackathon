@@ -1,0 +1,9 @@
+{
+  "source": "https://zenodo.org/records/22662930",
+  "tasks": {
+    "validation": 27199,
+    "test": 118500,
+    "train": 786373
+  },
+  "target_format": "<evidence>\nAnswer: <final answer>"
+}

@@ -1,0 +1,62 @@
+{
+  "power": {
+    "tracking": {
+      "observation": "Mean power was close to the interval-end reference.",
+      "check": "Watch whether the gap opens up."
+    },
+    "shortfall": {
+      "observation": "Mean power was well below the interval-end reference.",
+      "check": "Check wind availability, dispatch limits and controller state."
+    }
+  },
+  "operation": {
+    "generating": {
+      "observation": "Power output, generator speed and recorded running time indicate generation.",
+      "check": "Confirm live availability before scheduling output."
+    },
+    "idle": {
+      "observation": "Low power and generator speed accompanied an absence of recorded running time.",
+      "check": "Check the live controller state for the reason it is idle."
+    }
+  },
+  "temperature": {
+    "warming": {
+      "observation": "All generator winding temperatures rose over the latest hour.",
+      "check": "Check load and cooling if warming continues."
+    },
+    "cooling": {
+      "observation": "All generator winding temperatures fell over the latest hour.",
+      "check": "Check recent load and live limits before changing output."
+    }
+  },
+  "electrical": {
+    "small spread": {
+      "observation": "The phase-current averages were close together at cutoff.",
+      "check": "Check live protection if it flags an issue."
+    },
+    "wide spread": {
+      "observation": "The phase-current averages were widely separated at cutoff.",
+      "check": "Compare live phase measurements with independent metering."
+    }
+  },
+  "telemetry": {
+    "reporting": {
+      "observation": "Power, wind, generator speed and running time all reported at cutoff.",
+      "check": "Use the readings to assess operation."
+    },
+    "missing": {
+      "observation": "None of the selected channels reported at cutoff.",
+      "check": "Restore visibility before assigning downtime."
+    }
+  },
+  "maintenance": {
+    "error present": {
+      "observation": "The error flag was active at cutoff and in earlier readings.",
+      "check": "Retrieve the first-out alarm and event sequence."
+    },
+    "no error recorded": {
+      "observation": "The error flag stayed inactive throughout the window.",
+      "check": "Check live status if a fault remains suspected."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "previous": {
+    "correct_choices": 57,
+    "windows": 120,
+    "pairs_both_correct": 0,
+    "pairs": 60,
+    "generated_windows": 24,
+    "generated_outcome_correct": 0,
+    "matching_numeric_literals": 3,
+    "reference_numeric_literals": 46
+  },
+  "revised": {
+    "correct_choices": 109,
+    "windows": 120,
+    "pairs_both_correct": 50,
+    "pairs": 60,
+    "generated_windows": 24,
+    "generated_outcome_correct": 23,
+    "matching_numeric_literals": 19,
+    "reference_numeric_literals": 46
+  }
+}

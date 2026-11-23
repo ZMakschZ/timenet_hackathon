@@ -1,0 +1,39 @@
+{
+  "microbatch": 6,
+  "benchmark": [
+    {
+      "microbatch": 1,
+      "examples_per_second": 2.5212357346068335,
+      "peak_gib": 26.9
+    },
+    {
+      "microbatch": 2,
+      "examples_per_second": 2.6745809251748183,
+      "peak_gib": 35.55
+    },
+    {
+      "microbatch": 4,
+      "examples_per_second": 2.783290134142415,
+      "peak_gib": 52.81
+    },
+    {
+      "microbatch": 6,
+      "examples_per_second": 3.4494749570550973,
+      "peak_gib": 70.04
+    }
+  ],
+  "training": {
+    "examples": 46689,
+    "updates": 1950,
+    "best_update": 1500,
+    "initial_loss": 2.9478862705329387,
+    "best_loss": 0.049612802956493965,
+    "stop_reason": "early_stopping"
+  },
+  "test_rows": 371,
+  "correct_labels": 242,
+  "complete_responses": 371,
+  "seconds": 11858.4,
+  "initial_correct_labels": 142,
+  "initial_complete_responses": 326
+}

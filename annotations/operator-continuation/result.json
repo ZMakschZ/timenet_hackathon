@@ -1,0 +1,172 @@
+{
+  "examples_seen": 50112,
+  "selected_seen": 30056,
+  "selected_checkpoint": "/dev/shm/hill-operator-continuation/best.pt",
+  "elapsed_minutes": 51.05,
+  "baseline": {
+    "operator": {
+      "rows": 70,
+      "correct_state": 15,
+      "state_with_verification_language": 15,
+      "unknown_or_missing_correct": 0,
+      "unknown_or_missing_rows": 22,
+      "by_state": {
+        "visibility_unavailable": {
+          "rows": 16,
+          "correct": 0
+        },
+        "mixed_or_transitional": {
+          "rows": 16,
+          "correct": 0
+        },
+        "state_unknown": {
+          "rows": 6,
+          "correct": 0
+        },
+        "idle_or_stopped_at_cutoff": {
+          "rows": 16,
+          "correct": 11
+        },
+        "generating_in_latest_interval": {
+          "rows": 16,
+          "correct": 4
+        }
+      }
+    },
+    "paired": {
+      "rows": 72,
+      "correct_labels": 66,
+      "pairs": 36,
+      "both_correct": 30,
+      "both_correct_with_guidance": 23,
+      "reference_measurements": 120,
+      "matched_measurements": 37,
+      "answers_with_unverified_measurements": 47,
+      "guidance_screen_passes": 65,
+      "by_family": {
+        "electrical": {
+          "rows": 12,
+          "correct": 9
+        },
+        "maintenance": {
+          "rows": 12,
+          "correct": 12
+        },
+        "operation": {
+          "rows": 12,
+          "correct": 12
+        },
+        "power": {
+          "rows": 12,
+          "correct": 12
+        },
+        "telemetry": {
+          "rows": 12,
+          "correct": 12
+        },
+        "temperature": {
+          "rows": 12,
+          "correct": 9
+        }
+      }
+    }
+  },
+  "best": {
+    "operator": {
+      "rows": 70,
+      "correct_state": 61,
+      "state_with_verification_language": 61,
+      "unknown_or_missing_correct": 16,
+      "unknown_or_missing_rows": 22,
+      "by_state": {
+        "visibility_unavailable": {
+          "rows": 16,
+          "correct": 16
+        },
+        "mixed_or_transitional": {
+          "rows": 16,
+          "correct": 14
+        },
+        "state_unknown": {
+          "rows": 6,
+          "correct": 0
+        },
+        "idle_or_stopped_at_cutoff": {
+          "rows": 16,
+          "correct": 16
+        },
+        "generating_in_latest_interval": {
+          "rows": 16,
+          "correct": 15
+        }
+      }
+    },
+    "paired": {
+      "rows": 72,
+      "correct_labels": 67,
+      "pairs": 36,
+      "both_correct": 31,
+      "both_correct_with_guidance": 28,
+      "reference_measurements": 120,
+      "matched_measurements": 45,
+      "answers_with_unverified_measurements": 46,
+      "guidance_screen_passes": 63,
+      "by_family": {
+        "electrical": {
+          "rows": 12,
+          "correct": 11
+        },
+        "maintenance": {
+          "rows": 12,
+          "correct": 12
+        },
+        "operation": {
+          "rows": 12,
+          "correct": 12
+        },
+        "power": {
+          "rows": 12,
+          "correct": 12
+        },
+        "telemetry": {
+          "rows": 12,
+          "correct": 9
+        },
+        "temperature": {
+          "rows": 12,
+          "correct": 11
+        }
+      }
+    }
+  },
+  "transfer": {
+    "rows": 63,
+    "correct_state": 56,
+    "state_with_verification_language": 56,
+    "unknown_or_missing_correct": 12,
+    "unknown_or_missing_rows": 15,
+    "by_state": {
+      "generating_in_latest_interval": {
+        "rows": 16,
+        "correct": 16
+      },
+      "mixed_or_transitional": {
+        "rows": 16,
+        "correct": 12
+      },
+      "idle_or_stopped_at_cutoff": {
+        "rows": 16,
+        "correct": 16
+      },
+      "visibility_unavailable": {
+        "rows": 12,
+        "correct": 12
+      },
+      "state_unknown": {
+        "rows": 3,
+        "correct": 0
+      }
+    }
+  },
+  "local_checkpoint": "../runs/hill-operator-continuation/best.pt"
+}

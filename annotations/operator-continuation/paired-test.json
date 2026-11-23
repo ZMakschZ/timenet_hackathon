@@ -1,0 +1,39 @@
+{
+  "mixed": {
+    "rows": 240,
+    "correct_labels": 216,
+    "pairs": 120,
+    "both_correct": 97,
+    "both_correct_with_guidance": 82,
+    "reference_measurements": 400,
+    "matched_measurements": 132,
+    "answers_with_unverified_measurements": 160,
+    "guidance_screen_passes": 215,
+    "by_family": {
+      "electrical": {
+        "rows": 40,
+        "correct": 34
+      },
+      "maintenance": {
+        "rows": 40,
+        "correct": 33
+      },
+      "operation": {
+        "rows": 40,
+        "correct": 40
+      },
+      "power": {
+        "rows": 40,
+        "correct": 40
+      },
+      "telemetry": {
+        "rows": 40,
+        "correct": 35
+      },
+      "temperature": {
+        "rows": 40,
+        "correct": 34
+      }
+    }
+  }
+}

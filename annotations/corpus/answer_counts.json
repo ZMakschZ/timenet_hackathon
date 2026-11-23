@@ -1,0 +1,1164 @@
+[
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "electrical_phase_imbalance",
+    "scenario": "current_spread_eases_during_power_change",
+    "pairs": 606
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "electrical_phase_imbalance",
+    "scenario": "grid_phase_voltage_spread_increases",
+    "pairs": 16
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "electrical_phase_imbalance",
+    "scenario": "low_phase_spread_at_load",
+    "pairs": 1531
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "electrical_phase_imbalance",
+    "scenario": "phase_spreads_move_differently",
+    "pairs": 391
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "electrical_phase_imbalance",
+    "scenario": "steady_phase_current_spread",
+    "pairs": 779
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "maintenance_triage",
+    "scenario": "current_spread_under_steady_load",
+    "pairs": 916
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "maintenance_triage",
+    "scenario": "live_operation_check_telemetry",
+    "pairs": 98
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "maintenance_triage",
+    "scenario": "recurring_error_flag_after_generation",
+    "pairs": 4
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "maintenance_triage",
+    "scenario": "repeated_thermal_separation",
+    "pairs": 190
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "maintenance_triage",
+    "scenario": "thermal_handover_after_output_loss",
+    "pairs": 8
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "power_ramps",
+    "scenario": "falling_power_with_wind",
+    "pairs": 2116
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "power_ramps",
+    "scenario": "rated_pitch_response",
+    "pairs": 162
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "power_ramps",
+    "scenario": "reference_reduction_and_power_drop",
+    "pairs": 3
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "power_ramps",
+    "scenario": "wind_associated_ramp",
+    "pairs": 1466
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "repeated_starts",
+    "scenario": "generation_after_repeated_starts",
+    "pairs": 1712
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "repeated_starts",
+    "scenario": "multiple_start_stop_transitions",
+    "pairs": 165
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "repeated_starts",
+    "scenario": "ready_without_generation",
+    "pairs": 409
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "repeated_starts",
+    "scenario": "stop_with_error_flag",
+    "pairs": 9
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "repeated_starts",
+    "scenario": "sustained_generation_after_idle",
+    "pairs": 58
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "stale_telemetry",
+    "scenario": "all_telemetry_missing_at_cutoff",
+    "pairs": 36
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "stale_telemetry",
+    "scenario": "earlier_temperature_gaps",
+    "pairs": 179
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "stale_telemetry",
+    "scenario": "fresh_zero_running_time",
+    "pairs": 1175
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "stale_telemetry",
+    "scenario": "reporting_resumes_after_gap",
+    "pairs": 8
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "winding_temperature",
+    "scenario": "one_winding_moves_more",
+    "pairs": 11
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "winding_temperature",
+    "scenario": "stable_winding_temperature_offset",
+    "pairs": 505
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "winding_temperature",
+    "scenario": "windings_cool_as_load_falls",
+    "pairs": 3234
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_commissioning",
+    "family": "winding_temperature",
+    "scenario": "windings_warm_with_load",
+    "pairs": 3376
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "electrical_phase_imbalance",
+    "scenario": "current_spread_eases_during_power_change",
+    "pairs": 732
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "electrical_phase_imbalance",
+    "scenario": "grid_phase_voltage_spread_increases",
+    "pairs": 9
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "electrical_phase_imbalance",
+    "scenario": "low_phase_spread_at_load",
+    "pairs": 1857
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "electrical_phase_imbalance",
+    "scenario": "phase_spreads_move_differently",
+    "pairs": 555
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "electrical_phase_imbalance",
+    "scenario": "steady_phase_current_spread",
+    "pairs": 566
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "maintenance_triage",
+    "scenario": "current_spread_under_steady_load",
+    "pairs": 678
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "maintenance_triage",
+    "scenario": "live_operation_check_telemetry",
+    "pairs": 166
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "maintenance_triage",
+    "scenario": "recurring_error_flag_after_generation",
+    "pairs": 2
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "maintenance_triage",
+    "scenario": "repeated_thermal_separation",
+    "pairs": 126
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "maintenance_triage",
+    "scenario": "thermal_handover_after_output_loss",
+    "pairs": 6
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "power_ramps",
+    "scenario": "below_rated_reference",
+    "pairs": 2
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "power_ramps",
+    "scenario": "falling_power_with_wind",
+    "pairs": 3016
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "power_ramps",
+    "scenario": "rated_pitch_response",
+    "pairs": 89
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "power_ramps",
+    "scenario": "reference_reduction_and_power_drop",
+    "pairs": 9
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "power_ramps",
+    "scenario": "wind_associated_ramp",
+    "pairs": 2161
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "repeated_starts",
+    "scenario": "generation_after_repeated_starts",
+    "pairs": 2115
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "repeated_starts",
+    "scenario": "multiple_start_stop_transitions",
+    "pairs": 203
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "repeated_starts",
+    "scenario": "ready_without_generation",
+    "pairs": 323
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "repeated_starts",
+    "scenario": "stop_with_error_flag",
+    "pairs": 7
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "repeated_starts",
+    "scenario": "sustained_generation_after_idle",
+    "pairs": 34
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "stale_telemetry",
+    "scenario": "all_telemetry_missing_at_cutoff",
+    "pairs": 55
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "stale_telemetry",
+    "scenario": "earlier_temperature_gaps",
+    "pairs": 224
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "stale_telemetry",
+    "scenario": "fresh_zero_running_time",
+    "pairs": 854
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "stale_telemetry",
+    "scenario": "reporting_resumes_after_gap",
+    "pairs": 5
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "winding_temperature",
+    "scenario": "one_winding_moves_more",
+    "pairs": 11
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "winding_temperature",
+    "scenario": "stable_winding_temperature_offset",
+    "pairs": 355
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "winding_temperature",
+    "scenario": "windings_cool_as_load_falls",
+    "pairs": 4577
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_and_east_trial",
+    "family": "winding_temperature",
+    "scenario": "windings_warm_with_load",
+    "pairs": 4785
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_trial",
+    "family": "electrical_phase_imbalance",
+    "scenario": "current_spread_eases_during_power_change",
+    "pairs": 144
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_trial",
+    "family": "electrical_phase_imbalance",
+    "scenario": "low_phase_spread_at_load",
+    "pairs": 1662
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_trial",
+    "family": "electrical_phase_imbalance",
+    "scenario": "phase_spreads_move_differently",
+    "pairs": 125
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_trial",
+    "family": "electrical_phase_imbalance",
+    "scenario": "steady_phase_current_spread",
+    "pairs": 1020
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_trial",
+    "family": "maintenance_triage",
+    "scenario": "current_spread_under_steady_load",
+    "pairs": 1157
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_trial",
+    "family": "maintenance_triage",
+    "scenario": "live_operation_check_telemetry",
+    "pairs": 3
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_trial",
+    "family": "maintenance_triage",
+    "scenario": "repeated_thermal_separation",
+    "pairs": 198
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_trial",
+    "family": "maintenance_triage",
+    "scenario": "thermal_handover_after_output_loss",
+    "pairs": 2
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_trial",
+    "family": "power_ramps",
+    "scenario": "falling_power_with_wind",
+    "pairs": 820
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_trial",
+    "family": "power_ramps",
+    "scenario": "rated_pitch_response",
+    "pairs": 188
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_trial",
+    "family": "power_ramps",
+    "scenario": "wind_associated_ramp",
+    "pairs": 574
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_trial",
+    "family": "repeated_starts",
+    "scenario": "generation_after_repeated_starts",
+    "pairs": 441
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_trial",
+    "family": "repeated_starts",
+    "scenario": "multiple_start_stop_transitions",
+    "pairs": 41
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_trial",
+    "family": "repeated_starts",
+    "scenario": "ready_without_generation",
+    "pairs": 42
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_trial",
+    "family": "repeated_starts",
+    "scenario": "stop_with_error_flag",
+    "pairs": 2
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_trial",
+    "family": "repeated_starts",
+    "scenario": "sustained_generation_after_idle",
+    "pairs": 30
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_trial",
+    "family": "stale_telemetry",
+    "scenario": "all_telemetry_missing_at_cutoff",
+    "pairs": 5
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_trial",
+    "family": "stale_telemetry",
+    "scenario": "earlier_temperature_gaps",
+    "pairs": 4
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_trial",
+    "family": "stale_telemetry",
+    "scenario": "fresh_zero_running_time",
+    "pairs": 165
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_trial",
+    "family": "stale_telemetry",
+    "scenario": "near_flat_wind_while_generating",
+    "pairs": 1
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_trial",
+    "family": "winding_temperature",
+    "scenario": "one_winding_moves_more",
+    "pairs": 15
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_trial",
+    "family": "winding_temperature",
+    "scenario": "stable_winding_temperature_offset",
+    "pairs": 691
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_trial",
+    "family": "winding_temperature",
+    "scenario": "windings_cool_as_load_falls",
+    "pairs": 1324
+  },
+  {
+    "split": "test",
+    "cohort": "dynamic_yaw_west_trial",
+    "family": "winding_temperature",
+    "scenario": "windings_warm_with_load",
+    "pairs": 1407
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "electrical_phase_imbalance",
+    "scenario": "current_spread_eases_during_power_change",
+    "pairs": 1544
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "electrical_phase_imbalance",
+    "scenario": "grid_phase_voltage_spread_increases",
+    "pairs": 28
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "electrical_phase_imbalance",
+    "scenario": "low_phase_spread_at_load",
+    "pairs": 4295
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "electrical_phase_imbalance",
+    "scenario": "phase_spreads_move_differently",
+    "pairs": 1194
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "electrical_phase_imbalance",
+    "scenario": "steady_phase_current_spread",
+    "pairs": 2258
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "maintenance_triage",
+    "scenario": "current_spread_under_steady_load",
+    "pairs": 2669
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "maintenance_triage",
+    "scenario": "live_operation_check_telemetry",
+    "pairs": 380
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "maintenance_triage",
+    "scenario": "recurring_error_flag_after_generation",
+    "pairs": 24
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "maintenance_triage",
+    "scenario": "repeated_thermal_separation",
+    "pairs": 448
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "maintenance_triage",
+    "scenario": "thermal_handover_after_output_loss",
+    "pairs": 41
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "power_ramps",
+    "scenario": "below_rated_reference",
+    "pairs": 1
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "power_ramps",
+    "scenario": "falling_power_with_wind",
+    "pairs": 6857
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "power_ramps",
+    "scenario": "rated_pitch_response",
+    "pairs": 357
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "power_ramps",
+    "scenario": "reference_reduction_and_power_drop",
+    "pairs": 4
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "power_ramps",
+    "scenario": "wind_associated_ramp",
+    "pairs": 4820
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "repeated_starts",
+    "scenario": "generation_after_repeated_starts",
+    "pairs": 6393
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "repeated_starts",
+    "scenario": "multiple_start_stop_transitions",
+    "pairs": 995
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "repeated_starts",
+    "scenario": "ready_without_generation",
+    "pairs": 2859
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "repeated_starts",
+    "scenario": "stop_with_error_flag",
+    "pairs": 46
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "repeated_starts",
+    "scenario": "sustained_generation_after_idle",
+    "pairs": 139
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "stale_telemetry",
+    "scenario": "all_telemetry_missing_at_cutoff",
+    "pairs": 329
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "stale_telemetry",
+    "scenario": "earlier_temperature_gaps",
+    "pairs": 1170
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "stale_telemetry",
+    "scenario": "fresh_zero_running_time",
+    "pairs": 5871
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "stale_telemetry",
+    "scenario": "reporting_resumes_after_gap",
+    "pairs": 44
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "winding_temperature",
+    "scenario": "one_winding_moves_more",
+    "pairs": 30
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "winding_temperature",
+    "scenario": "stable_winding_temperature_offset",
+    "pairs": 1151
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "winding_temperature",
+    "scenario": "windings_cool_as_load_falls",
+    "pairs": 10810
+  },
+  {
+    "split": "test",
+    "cohort": "pre_commissioning",
+    "family": "winding_temperature",
+    "scenario": "windings_warm_with_load",
+    "pairs": 10997
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "electrical_phase_imbalance",
+    "scenario": "current_spread_eases_during_power_change",
+    "pairs": 14981
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "electrical_phase_imbalance",
+    "scenario": "grid_phase_voltage_spread_increases",
+    "pairs": 1003
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "electrical_phase_imbalance",
+    "scenario": "low_phase_spread_at_load",
+    "pairs": 75258
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "electrical_phase_imbalance",
+    "scenario": "phase_spreads_move_differently",
+    "pairs": 11677
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "electrical_phase_imbalance",
+    "scenario": "steady_phase_current_spread",
+    "pairs": 21328
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "maintenance_triage",
+    "scenario": "current_spread_under_steady_load",
+    "pairs": 25601
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "maintenance_triage",
+    "scenario": "live_operation_check_telemetry",
+    "pairs": 5241
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "maintenance_triage",
+    "scenario": "recurring_error_flag_after_generation",
+    "pairs": 469
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "maintenance_triage",
+    "scenario": "repeated_thermal_separation",
+    "pairs": 5986
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "maintenance_triage",
+    "scenario": "thermal_handover_after_output_loss",
+    "pairs": 463
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "power_ramps",
+    "scenario": "below_rated_reference",
+    "pairs": 10
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "power_ramps",
+    "scenario": "falling_power_with_wind",
+    "pairs": 80910
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "power_ramps",
+    "scenario": "rated_pitch_response",
+    "pairs": 5945
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "power_ramps",
+    "scenario": "reference_reduction_and_power_drop",
+    "pairs": 63
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "power_ramps",
+    "scenario": "wind_associated_ramp",
+    "pairs": 59171
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "repeated_starts",
+    "scenario": "generation_after_repeated_starts",
+    "pairs": 67914
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "repeated_starts",
+    "scenario": "multiple_start_stop_transitions",
+    "pairs": 10320
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "repeated_starts",
+    "scenario": "ready_without_generation",
+    "pairs": 32255
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "repeated_starts",
+    "scenario": "stop_with_error_flag",
+    "pairs": 628
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "repeated_starts",
+    "scenario": "sustained_generation_after_idle",
+    "pairs": 1811
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "stale_telemetry",
+    "scenario": "all_telemetry_missing_at_cutoff",
+    "pairs": 4722
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "stale_telemetry",
+    "scenario": "earlier_temperature_gaps",
+    "pairs": 10304
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "stale_telemetry",
+    "scenario": "fresh_zero_running_time",
+    "pairs": 74533
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "stale_telemetry",
+    "scenario": "near_flat_wind_while_generating",
+    "pairs": 15
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "stale_telemetry",
+    "scenario": "reporting_resumes_after_gap",
+    "pairs": 343
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "winding_temperature",
+    "scenario": "one_winding_moves_more",
+    "pairs": 449
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "winding_temperature",
+    "scenario": "stable_winding_temperature_offset",
+    "pairs": 17966
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "winding_temperature",
+    "scenario": "winding_spread_widens",
+    "pairs": 1
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "winding_temperature",
+    "scenario": "windings_cool_as_load_falls",
+    "pairs": 125441
+  },
+  {
+    "split": "train",
+    "cohort": "historical_train",
+    "family": "winding_temperature",
+    "scenario": "windings_warm_with_load",
+    "pairs": 131565
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "electrical_phase_imbalance",
+    "scenario": "current_spread_eases_during_power_change",
+    "pairs": 888
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "electrical_phase_imbalance",
+    "scenario": "grid_phase_voltage_spread_increases",
+    "pairs": 48
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "electrical_phase_imbalance",
+    "scenario": "low_phase_spread_at_load",
+    "pairs": 2358
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "electrical_phase_imbalance",
+    "scenario": "phase_spreads_move_differently",
+    "pairs": 671
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "electrical_phase_imbalance",
+    "scenario": "steady_phase_current_spread",
+    "pairs": 1397
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "maintenance_triage",
+    "scenario": "current_spread_under_steady_load",
+    "pairs": 1608
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "maintenance_triage",
+    "scenario": "live_operation_check_telemetry",
+    "pairs": 220
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "maintenance_triage",
+    "scenario": "recurring_error_flag_after_generation",
+    "pairs": 6
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "maintenance_triage",
+    "scenario": "repeated_thermal_separation",
+    "pairs": 262
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "maintenance_triage",
+    "scenario": "thermal_handover_after_output_loss",
+    "pairs": 33
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "power_ramps",
+    "scenario": "falling_power_with_wind",
+    "pairs": 3037
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "power_ramps",
+    "scenario": "rated_pitch_response",
+    "pairs": 273
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "power_ramps",
+    "scenario": "reference_reduction_and_power_drop",
+    "pairs": 24
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "power_ramps",
+    "scenario": "wind_associated_ramp",
+    "pairs": 2003
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "repeated_starts",
+    "scenario": "generation_after_repeated_starts",
+    "pairs": 2011
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "repeated_starts",
+    "scenario": "multiple_start_stop_transitions",
+    "pairs": 165
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "repeated_starts",
+    "scenario": "ready_without_generation",
+    "pairs": 475
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "repeated_starts",
+    "scenario": "stop_with_error_flag",
+    "pairs": 39
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "repeated_starts",
+    "scenario": "sustained_generation_after_idle",
+    "pairs": 28
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "stale_telemetry",
+    "scenario": "all_telemetry_missing_at_cutoff",
+    "pairs": 48
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "stale_telemetry",
+    "scenario": "earlier_temperature_gaps",
+    "pairs": 322
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "stale_telemetry",
+    "scenario": "fresh_zero_running_time",
+    "pairs": 1133
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "stale_telemetry",
+    "scenario": "near_flat_wind_while_generating",
+    "pairs": 2
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "stale_telemetry",
+    "scenario": "reporting_resumes_after_gap",
+    "pairs": 4
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "winding_temperature",
+    "scenario": "one_winding_moves_more",
+    "pairs": 18
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "winding_temperature",
+    "scenario": "stable_winding_temperature_offset",
+    "pairs": 740
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "winding_temperature",
+    "scenario": "winding_spread_widens",
+    "pairs": 1
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "winding_temperature",
+    "scenario": "windings_cool_as_load_falls",
+    "pairs": 4777
+  },
+  {
+    "split": "validation",
+    "cohort": "post_tuneup_validation",
+    "family": "winding_temperature",
+    "scenario": "windings_warm_with_load",
+    "pairs": 4608
+  }
+]

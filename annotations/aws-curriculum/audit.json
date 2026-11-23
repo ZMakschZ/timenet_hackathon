@@ -1,0 +1,158 @@
+{
+  "aws_revision": "b83a9901d401e9e872ee9048fe61e6c9df9a5b78",
+  "checkpoint_revision": "5e030b001fb8d4be6d10ebb3a8b9bc3e6ef80983",
+  "checkpoint_config_sha256": "4cc0f5236517b6288ecf14ce54270acf9cb931232b399494caa0e1919faf7348",
+  "checkpoint_limits": {
+    "patch_size": 4,
+    "max_values": 32768,
+    "max_media": 512
+  },
+  "views": {
+    "caption-test": {
+      "model_examples": 864,
+      "examples_with_missingness": 0,
+      "examples_with_measured_zero": 0,
+      "aws_prepare_checked": 12,
+      "model_labels": {
+        "decreased": 321,
+        "increased": 384,
+        "stayed about the same": 159
+      }
+    },
+    "caption-train": {
+      "model_examples": 4000,
+      "examples_with_missingness": 0,
+      "examples_with_measured_zero": 10,
+      "aws_prepare_checked": 17,
+      "model_labels": {
+        "stayed about the same": 1333,
+        "decreased": 1333,
+        "increased": 1334
+      }
+    },
+    "caption-validation": {
+      "model_examples": 440,
+      "examples_with_missingness": 0,
+      "examples_with_measured_zero": 4,
+      "aws_prepare_checked": 13,
+      "model_labels": {
+        "decreased": 190,
+        "increased": 187,
+        "stayed about the same": 63
+      }
+    },
+    "mcq-test": {
+      "model_examples": 864,
+      "examples_with_missingness": 0,
+      "examples_with_measured_zero": 0,
+      "aws_prepare_checked": 12,
+      "model_labels": {
+        "decreased": 321,
+        "increased": 384,
+        "stayed about the same": 159
+      }
+    },
+    "mcq-train": {
+      "model_examples": 4000,
+      "examples_with_missingness": 0,
+      "examples_with_measured_zero": 7,
+      "aws_prepare_checked": 15,
+      "model_labels": {
+        "decreased": 1333,
+        "stayed about the same": 1333,
+        "increased": 1334
+      }
+    },
+    "mcq-validation": {
+      "model_examples": 440,
+      "examples_with_missingness": 0,
+      "examples_with_measured_zero": 4,
+      "aws_prepare_checked": 13,
+      "model_labels": {
+        "decreased": 190,
+        "increased": 187,
+        "stayed about the same": 63
+      }
+    },
+    "trend-test": {
+      "model_examples": 232,
+      "examples_with_missingness": 16,
+      "examples_with_measured_zero": 232,
+      "aws_prepare_checked": 14,
+      "availability_check": 8,
+      "model_labels": {
+        "tracking": 20,
+        "generating": 20,
+        "reporting": 20,
+        "no error recorded": 20,
+        "shortfall": 20,
+        "idle": 20,
+        "cooling": 20,
+        "wide spread": 20,
+        "warming": 20,
+        "error present": 20,
+        "small spread": 20,
+        "missing": 12
+      }
+    },
+    "trend-train": {
+      "model_examples": 97175,
+      "examples_with_missingness": 5097,
+      "examples_with_measured_zero": 97175,
+      "aws_prepare_checked": 23,
+      "availability_check": 2825,
+      "model_labels": {
+        "shortfall": 9776,
+        "tracking": 9776,
+        "generating": 9776,
+        "cooling": 11276,
+        "warming": 11276,
+        "idle": 9776,
+        "reporting": 7146,
+        "no error recorded": 8826,
+        "small spread": 3200,
+        "error present": 8826,
+        "wide spread": 3200,
+        "missing": 4321
+      }
+    },
+    "trend-validation": {
+      "model_examples": 119,
+      "examples_with_missingness": 9,
+      "examples_with_measured_zero": 119,
+      "aws_prepare_checked": 12,
+      "availability_check": 1,
+      "model_labels": {
+        "no error recorded": 10,
+        "missing": 9,
+        "warming": 10,
+        "tracking": 10,
+        "idle": 10,
+        "error present": 10,
+        "shortfall": 10,
+        "generating": 10,
+        "reporting": 10,
+        "cooling": 10,
+        "small spread": 10,
+        "wide spread": 10
+      }
+    }
+  },
+  "smoke": {
+    "measured_zero": {
+      "task_id": "caption:2016_08:2304519:2076:P",
+      "split": "train",
+      "media_items": 1
+    },
+    "partial_gap": {
+      "task_id": "trend:2025_03:2304511:4374:telemetry",
+      "split": "test",
+      "media_items": 20
+    },
+    "full_outage": {
+      "task_id": "trend:2025_09:2304527:2142:telemetry",
+      "split": "test",
+      "operator_answer": "No usable SCADA readings are available in this window. Verify live telemetry and controller status."
+    }
+  }
+}

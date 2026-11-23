@@ -1,0 +1,27 @@
+{
+  "examples_seen": 15000,
+  "early_stopped": true,
+  "selected_checkpoint": "runs/hill-paired-qa/best.pt",
+  "baseline": {
+    "paired_both_correct": 50,
+    "pairs": 60,
+    "correct_choices": 109,
+    "generated_outcomes_correct": 23,
+    "numeric_matches": 19,
+    "reference_numbers": 46,
+    "generated_numbers": 46,
+    "numeric_f1": 0.41304347826086957,
+    "score": 0.6231884057971014
+  },
+  "best_in_memory": {
+    "paired_both_correct": 50,
+    "pairs": 60,
+    "correct_choices": 109,
+    "generated_outcomes_correct": 23,
+    "numeric_matches": 19,
+    "reference_numbers": 46,
+    "generated_numbers": 46,
+    "numeric_f1": 0.41304347826086957,
+    "score": 0.6231884057971014
+  }
+}

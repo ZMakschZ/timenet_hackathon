@@ -1,0 +1,38 @@
+{
+  "windows": 63,
+  "visibility_unavailable": 12,
+  "state_unknown": 3,
+  "visibility_unavailable_called_idle": 11,
+  "uncertainty_acknowledged_when_visibility_unavailable_or_state_unknown": 0,
+  "examples": [
+    {
+      "question": "What is this turbine doing now, what should I check next, and what would change the decision? Use the available telemetry and state any uncertainty.",
+      "prediction": "Answer: idle. Power was -9 kW, speed was 1 rpm, direction was north. Check the live controller state for the reason it is idle.",
+      "turbine": "T01",
+      "cutoff_utc": "2025-09-15T20:00:00+00:00",
+      "month": "2025_09",
+      "station_id": 2304510,
+      "stop_step": 2136,
+      "expected_state": "visibility_unavailable",
+      "reference_answer": "Operating state is unknown. None of the 20 SCADA channels reported within this six-hour window. Check live communications or an independent source before recording downtime.",
+      "scenario_references": []
+    },
+    {
+      "question": "What is this turbine doing now, what should I check next, and what would change the decision? Use the available telemetry and state any uncertainty.",
+      "prediction": "Answer: 1551 kW against 1551 kW. Change setting 1551 kW.",
+      "turbine": "T19",
+      "cutoff_utc": "2026-01-04T19:00:00+00:00",
+      "month": "2026_01",
+      "station_id": 2304528,
+      "stop_step": 546,
+      "expected_state": "generating_in_latest_interval",
+      "reference_answer": "The turbine generated in the latest interval. The latest interval reports power 2280.223 kW, power reference 2300 kW, wind 13.725 m/s, generator speed 1550.732 rpm, in-operation time 600 s. Check the trend against the requested output and review live alarms or limits if output departs from the request.",
+      "scenario_references": [
+        {
+          "scenario": "windings_warm_with_load",
+          "answer": "In an hour, 1U1/1V1/1W1 warmed by 3.68/3.83/3.71 \u00b0C, and the spread went from 1.13 to 1.1 \u00b0C. Power went from 1,899.73 to 2,280.22 kW. The common rise is consistent with warming under increased load. Check the live maximum and watch for continued heating at steady output or a widening spread. Confirm any action against the controller's temperature limits."
+        }
+      ]
+    }
+  ]
+}

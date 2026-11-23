@@ -1,0 +1,34 @@
+{
+  "available_training_windows_by_state": {
+    "generating_in_latest_interval": 184245,
+    "idle_or_stopped_at_cutoff": 39060,
+    "mixed_or_transitional": 105043,
+    "visibility_unavailable": 4507,
+    "state_unknown": 45
+  },
+  "unknown_state_replays_per_window": 12,
+  "operator_training": {
+    "generating_in_latest_interval": 21318,
+    "mixed_or_transitional": 18317,
+    "idle_or_stopped_at_cutoff": 15318,
+    "visibility_unavailable": 4507,
+    "state_unknown": 540
+  },
+  "operator_validation": {
+    "visibility_unavailable": 16,
+    "mixed_or_transitional": 16,
+    "state_unknown": 6,
+    "idle_or_stopped_at_cutoff": 16,
+    "generating_in_latest_interval": 16
+  },
+  "paired_training": {
+    "power": 9014,
+    "temperature": 8870,
+    "maintenance": 6246,
+    "telemetry": 5024,
+    "operation": 9082,
+    "electrical": 1764
+  },
+  "operator_training_months": 105,
+  "operator_training_turbines": 21
+}

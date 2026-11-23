@@ -1,0 +1,958 @@
+{
+  "source": "https://zenodo.org/records/22662930",
+  "channels": {
+    "P": [
+      "Grid",
+      "wtc_ActPower_mean",
+      "kW"
+    ],
+    "W": [
+      "Turbine",
+      "wtc_AcWindSp_mean",
+      "m/s"
+    ],
+    "R": [
+      "Turbine",
+      "wtc_GenRpm_mean",
+      "rpm"
+    ],
+    "C": [
+      "Turbine",
+      "wtc_PowerRef_endvalue",
+      "kW"
+    ],
+    "S": [
+      "Turbine",
+      "wtc_MainSRpm_mean",
+      "rpm"
+    ],
+    "ON": [
+      "Flag",
+      "wtc_ScInOper_timeon",
+      "s"
+    ],
+    "READY": [
+      "Flag",
+      "wtc_ScReToOp_timeon",
+      "s"
+    ],
+    "ERR": [
+      "Flag",
+      "wtc_ScTurSto_timeon",
+      "s"
+    ],
+    "B": [
+      "Turbine",
+      "wtc_PitcPosA_mean",
+      "deg"
+    ],
+    "A": [
+      "Temp",
+      "wtc_AmbieTmp_mean",
+      "\u00b0C"
+    ],
+    "U": [
+      "Temp",
+      "wtc_Gen1U1Tm_mean",
+      "\u00b0C"
+    ],
+    "V": [
+      "Temp",
+      "wtc_Gen1V1Tm_mean",
+      "\u00b0C"
+    ],
+    "Z": [
+      "Temp",
+      "wtc_Gen1W1Tm_mean",
+      "\u00b0C"
+    ],
+    "VR": [
+      "Grid",
+      "wtc_VoltPhR_mean",
+      "V"
+    ],
+    "VS": [
+      "Grid",
+      "wtc_VoltPhS_mean",
+      "V"
+    ],
+    "VT": [
+      "Grid",
+      "wtc_VoltPhT_mean",
+      "V"
+    ],
+    "IR": [
+      "Grid",
+      "wtc_AmpPhR_mean",
+      "A"
+    ],
+    "IS": [
+      "Grid",
+      "wtc_AmpPhS_mean",
+      "A"
+    ],
+    "IT": [
+      "Grid",
+      "wtc_AmpPhT_mean",
+      "A"
+    ],
+    "Q": [
+      "Grid",
+      "wtc_ReactPwr_mean",
+      "kvar"
+    ]
+  },
+  "turbines": [
+    {
+      "Station ID": 2304510,
+      "Turbine Name": "T01",
+      "Rated power (kW)": 2300
+    },
+    {
+      "Station ID": 2304511,
+      "Turbine Name": "T02",
+      "Rated power (kW)": 2300
+    },
+    {
+      "Station ID": 2304512,
+      "Turbine Name": "T03",
+      "Rated power (kW)": 2300
+    },
+    {
+      "Station ID": 2304513,
+      "Turbine Name": "T04",
+      "Rated power (kW)": 2300
+    },
+    {
+      "Station ID": 2304514,
+      "Turbine Name": "T05",
+      "Rated power (kW)": 2300
+    },
+    {
+      "Station ID": 2304515,
+      "Turbine Name": "T06",
+      "Rated power (kW)": 2300
+    },
+    {
+      "Station ID": 2304516,
+      "Turbine Name": "T07",
+      "Rated power (kW)": 2300
+    },
+    {
+      "Station ID": 2304517,
+      "Turbine Name": "T08",
+      "Rated power (kW)": 2300
+    },
+    {
+      "Station ID": 2304518,
+      "Turbine Name": "T09",
+      "Rated power (kW)": 2300
+    },
+    {
+      "Station ID": 2304519,
+      "Turbine Name": "T10",
+      "Rated power (kW)": 2300
+    },
+    {
+      "Station ID": 2304520,
+      "Turbine Name": "T11",
+      "Rated power (kW)": 2300
+    },
+    {
+      "Station ID": 2304521,
+      "Turbine Name": "T12",
+      "Rated power (kW)": 2300
+    },
+    {
+      "Station ID": 2304522,
+      "Turbine Name": "T13",
+      "Rated power (kW)": 2300
+    },
+    {
+      "Station ID": 2304523,
+      "Turbine Name": "T14",
+      "Rated power (kW)": 2300
+    },
+    {
+      "Station ID": 2304524,
+      "Turbine Name": "T15",
+      "Rated power (kW)": 2300
+    },
+    {
+      "Station ID": 2304525,
+      "Turbine Name": "T16",
+      "Rated power (kW)": 2300
+    },
+    {
+      "Station ID": 2304526,
+      "Turbine Name": "T17",
+      "Rated power (kW)": 2300
+    },
+    {
+      "Station ID": 2304527,
+      "Turbine Name": "T18",
+      "Rated power (kW)": 2300
+    },
+    {
+      "Station ID": 2304528,
+      "Turbine Name": "T19",
+      "Rated power (kW)": 2300
+    },
+    {
+      "Station ID": 2304529,
+      "Turbine Name": "T20",
+      "Rated power (kW)": 2300
+    },
+    {
+      "Station ID": 2304530,
+      "Turbine Name": "T21",
+      "Rated power (kW)": 2300
+    }
+  ],
+  "months": [
+    {
+      "month": "2016_01",
+      "candidates": 15519,
+      "matched": 6817,
+      "scenario_pairs": 10711
+    },
+    {
+      "month": "2016_02",
+      "candidates": 14511,
+      "matched": 5293,
+      "scenario_pairs": 7860
+    },
+    {
+      "month": "2016_03",
+      "candidates": 15519,
+      "matched": 4128,
+      "scenario_pairs": 5958
+    },
+    {
+      "month": "2016_04",
+      "candidates": 15015,
+      "matched": 3914,
+      "scenario_pairs": 5386
+    },
+    {
+      "month": "2016_05",
+      "candidates": 15519,
+      "matched": 3169,
+      "scenario_pairs": 4410
+    },
+    {
+      "month": "2016_06",
+      "candidates": 15015,
+      "matched": 3170,
+      "scenario_pairs": 4636
+    },
+    {
+      "month": "2016_07",
+      "candidates": 15519,
+      "matched": 3906,
+      "scenario_pairs": 5345
+    },
+    {
+      "month": "2016_08",
+      "candidates": 15519,
+      "matched": 5704,
+      "scenario_pairs": 8276
+    },
+    {
+      "month": "2016_09",
+      "candidates": 15015,
+      "matched": 5171,
+      "scenario_pairs": 7671
+    },
+    {
+      "month": "2016_10",
+      "candidates": 15519,
+      "matched": 4739,
+      "scenario_pairs": 6823
+    },
+    {
+      "month": "2016_11",
+      "candidates": 15015,
+      "matched": 4879,
+      "scenario_pairs": 6930
+    },
+    {
+      "month": "2016_12",
+      "candidates": 15519,
+      "matched": 7122,
+      "scenario_pairs": 10606
+    },
+    {
+      "month": "2017_01",
+      "candidates": 15519,
+      "matched": 6765,
+      "scenario_pairs": 9855
+    },
+    {
+      "month": "2017_02",
+      "candidates": 14007,
+      "matched": 5763,
+      "scenario_pairs": 8589
+    },
+    {
+      "month": "2017_03",
+      "candidates": 15519,
+      "matched": 5357,
+      "scenario_pairs": 7674
+    },
+    {
+      "month": "2017_04",
+      "candidates": 15015,
+      "matched": 5799,
+      "scenario_pairs": 8442
+    },
+    {
+      "month": "2017_05",
+      "candidates": 15519,
+      "matched": 3972,
+      "scenario_pairs": 5609
+    },
+    {
+      "month": "2017_06",
+      "candidates": 15015,
+      "matched": 4678,
+      "scenario_pairs": 6975
+    },
+    {
+      "month": "2017_07",
+      "candidates": 15519,
+      "matched": 4317,
+      "scenario_pairs": 6408
+    },
+    {
+      "month": "2017_08",
+      "candidates": 15519,
+      "matched": 3873,
+      "scenario_pairs": 5710
+    },
+    {
+      "month": "2017_09",
+      "candidates": 15015,
+      "matched": 4899,
+      "scenario_pairs": 7009
+    },
+    {
+      "month": "2017_10",
+      "candidates": 15519,
+      "matched": 6638,
+      "scenario_pairs": 10359
+    },
+    {
+      "month": "2017_11",
+      "candidates": 15015,
+      "matched": 6277,
+      "scenario_pairs": 9379
+    },
+    {
+      "month": "2017_12",
+      "candidates": 15519,
+      "matched": 6721,
+      "scenario_pairs": 10100
+    },
+    {
+      "month": "2018_01",
+      "candidates": 15519,
+      "matched": 7150,
+      "scenario_pairs": 10968
+    },
+    {
+      "month": "2018_02",
+      "candidates": 14007,
+      "matched": 5526,
+      "scenario_pairs": 8534
+    },
+    {
+      "month": "2018_03",
+      "candidates": 15519,
+      "matched": 5439,
+      "scenario_pairs": 7753
+    },
+    {
+      "month": "2018_04",
+      "candidates": 15015,
+      "matched": 4286,
+      "scenario_pairs": 6272
+    },
+    {
+      "month": "2018_05",
+      "candidates": 15519,
+      "matched": 4028,
+      "scenario_pairs": 5944
+    },
+    {
+      "month": "2018_06",
+      "candidates": 15015,
+      "matched": 4133,
+      "scenario_pairs": 6113
+    },
+    {
+      "month": "2018_07",
+      "candidates": 15519,
+      "matched": 3678,
+      "scenario_pairs": 5466
+    },
+    {
+      "month": "2018_08",
+      "candidates": 15519,
+      "matched": 3794,
+      "scenario_pairs": 5467
+    },
+    {
+      "month": "2018_09",
+      "candidates": 15015,
+      "matched": 6440,
+      "scenario_pairs": 9949
+    },
+    {
+      "month": "2018_10",
+      "candidates": 15519,
+      "matched": 6910,
+      "scenario_pairs": 11398
+    },
+    {
+      "month": "2018_11",
+      "candidates": 15015,
+      "matched": 5979,
+      "scenario_pairs": 9345
+    },
+    {
+      "month": "2018_12",
+      "candidates": 15519,
+      "matched": 6285,
+      "scenario_pairs": 9897
+    },
+    {
+      "month": "2019_01",
+      "candidates": 15519,
+      "matched": 5248,
+      "scenario_pairs": 8060
+    },
+    {
+      "month": "2019_02",
+      "candidates": 14007,
+      "matched": 5976,
+      "scenario_pairs": 9134
+    },
+    {
+      "month": "2019_03",
+      "candidates": 15519,
+      "matched": 7306,
+      "scenario_pairs": 11312
+    },
+    {
+      "month": "2019_04",
+      "candidates": 15015,
+      "matched": 4072,
+      "scenario_pairs": 6223
+    },
+    {
+      "month": "2019_05",
+      "candidates": 15519,
+      "matched": 3084,
+      "scenario_pairs": 4468
+    },
+    {
+      "month": "2019_06",
+      "candidates": 15015,
+      "matched": 3517,
+      "scenario_pairs": 5036
+    },
+    {
+      "month": "2019_07",
+      "candidates": 15519,
+      "matched": 3989,
+      "scenario_pairs": 5907
+    },
+    {
+      "month": "2019_08",
+      "candidates": 15519,
+      "matched": 4497,
+      "scenario_pairs": 6806
+    },
+    {
+      "month": "2019_09",
+      "candidates": 15015,
+      "matched": 4874,
+      "scenario_pairs": 7356
+    },
+    {
+      "month": "2019_10",
+      "candidates": 15519,
+      "matched": 5455,
+      "scenario_pairs": 8626
+    },
+    {
+      "month": "2019_11",
+      "candidates": 15015,
+      "matched": 3390,
+      "scenario_pairs": 5048
+    },
+    {
+      "month": "2019_12",
+      "candidates": 15519,
+      "matched": 5784,
+      "scenario_pairs": 9133
+    },
+    {
+      "month": "2020_01",
+      "candidates": 15519,
+      "matched": 8097,
+      "scenario_pairs": 13347
+    },
+    {
+      "month": "2020_02",
+      "candidates": 14511,
+      "matched": 7530,
+      "scenario_pairs": 12351
+    },
+    {
+      "month": "2020_03",
+      "candidates": 15519,
+      "matched": 6397,
+      "scenario_pairs": 9662
+    },
+    {
+      "month": "2020_04",
+      "candidates": 15015,
+      "matched": 5261,
+      "scenario_pairs": 7863
+    },
+    {
+      "month": "2020_05",
+      "candidates": 15519,
+      "matched": 5168,
+      "scenario_pairs": 7745
+    },
+    {
+      "month": "2020_06",
+      "candidates": 15015,
+      "matched": 2988,
+      "scenario_pairs": 4406
+    },
+    {
+      "month": "2020_07",
+      "candidates": 15519,
+      "matched": 4415,
+      "scenario_pairs": 6544
+    },
+    {
+      "month": "2020_08",
+      "candidates": 15519,
+      "matched": 3686,
+      "scenario_pairs": 5707
+    },
+    {
+      "month": "2020_09",
+      "candidates": 15015,
+      "matched": 4736,
+      "scenario_pairs": 7545
+    },
+    {
+      "month": "2020_10",
+      "candidates": 15519,
+      "matched": 3887,
+      "scenario_pairs": 5947
+    },
+    {
+      "month": "2020_11",
+      "candidates": 15015,
+      "matched": 5661,
+      "scenario_pairs": 9027
+    },
+    {
+      "month": "2020_12",
+      "candidates": 15519,
+      "matched": 5434,
+      "scenario_pairs": 8326
+    },
+    {
+      "month": "2021_01",
+      "candidates": 15519,
+      "matched": 4208,
+      "scenario_pairs": 6487
+    },
+    {
+      "month": "2021_02",
+      "candidates": 14007,
+      "matched": 6319,
+      "scenario_pairs": 10431
+    },
+    {
+      "month": "2021_03",
+      "candidates": 15519,
+      "matched": 5262,
+      "scenario_pairs": 8115
+    },
+    {
+      "month": "2021_04",
+      "candidates": 15015,
+      "matched": 3623,
+      "scenario_pairs": 5174
+    },
+    {
+      "month": "2021_05",
+      "candidates": 15519,
+      "matched": 3529,
+      "scenario_pairs": 5286
+    },
+    {
+      "month": "2021_06",
+      "candidates": 15015,
+      "matched": 3747,
+      "scenario_pairs": 5617
+    },
+    {
+      "month": "2021_07",
+      "candidates": 15519,
+      "matched": 3506,
+      "scenario_pairs": 5709
+    },
+    {
+      "month": "2021_08",
+      "candidates": 15519,
+      "matched": 3084,
+      "scenario_pairs": 4618
+    },
+    {
+      "month": "2021_09",
+      "candidates": 15015,
+      "matched": 4808,
+      "scenario_pairs": 7245
+    },
+    {
+      "month": "2021_10",
+      "candidates": 15519,
+      "matched": 6101,
+      "scenario_pairs": 8942
+    },
+    {
+      "month": "2021_11",
+      "candidates": 15015,
+      "matched": 6771,
+      "scenario_pairs": 10677
+    },
+    {
+      "month": "2021_12",
+      "candidates": 15519,
+      "matched": 5811,
+      "scenario_pairs": 8851
+    },
+    {
+      "month": "2022_01",
+      "candidates": 15519,
+      "matched": 8112,
+      "scenario_pairs": 13166
+    },
+    {
+      "month": "2022_02",
+      "candidates": 14007,
+      "matched": 7111,
+      "scenario_pairs": 11291
+    },
+    {
+      "month": "2022_03",
+      "candidates": 15519,
+      "matched": 5162,
+      "scenario_pairs": 7874
+    },
+    {
+      "month": "2022_04",
+      "candidates": 15015,
+      "matched": 4249,
+      "scenario_pairs": 6091
+    },
+    {
+      "month": "2022_05",
+      "candidates": 15519,
+      "matched": 5586,
+      "scenario_pairs": 7919
+    },
+    {
+      "month": "2022_06",
+      "candidates": 15015,
+      "matched": 4868,
+      "scenario_pairs": 7126
+    },
+    {
+      "month": "2022_07",
+      "candidates": 15519,
+      "matched": 4326,
+      "scenario_pairs": 5952
+    },
+    {
+      "month": "2022_08",
+      "candidates": 15519,
+      "matched": 4563,
+      "scenario_pairs": 6149
+    },
+    {
+      "month": "2022_09",
+      "candidates": 15015,
+      "matched": 4394,
+      "scenario_pairs": 5940
+    },
+    {
+      "month": "2022_10",
+      "candidates": 15519,
+      "matched": 4658,
+      "scenario_pairs": 6716
+    },
+    {
+      "month": "2022_11",
+      "candidates": 15015,
+      "matched": 4260,
+      "scenario_pairs": 6231
+    },
+    {
+      "month": "2022_12",
+      "candidates": 15519,
+      "matched": 4824,
+      "scenario_pairs": 6990
+    },
+    {
+      "month": "2023_01",
+      "candidates": 15519,
+      "matched": 6106,
+      "scenario_pairs": 9399
+    },
+    {
+      "month": "2023_02",
+      "candidates": 14007,
+      "matched": 4964,
+      "scenario_pairs": 8152
+    },
+    {
+      "month": "2023_03",
+      "candidates": 15519,
+      "matched": 3723,
+      "scenario_pairs": 5260
+    },
+    {
+      "month": "2023_04",
+      "candidates": 15015,
+      "matched": 3378,
+      "scenario_pairs": 4818
+    },
+    {
+      "month": "2023_05",
+      "candidates": 15519,
+      "matched": 3634,
+      "scenario_pairs": 5436
+    },
+    {
+      "month": "2023_06",
+      "candidates": 15015,
+      "matched": 2864,
+      "scenario_pairs": 3999
+    },
+    {
+      "month": "2023_07",
+      "candidates": 15519,
+      "matched": 3477,
+      "scenario_pairs": 4982
+    },
+    {
+      "month": "2023_08",
+      "candidates": 15519,
+      "matched": 3580,
+      "scenario_pairs": 5176
+    },
+    {
+      "month": "2023_09",
+      "candidates": 15015,
+      "matched": 4737,
+      "scenario_pairs": 7399
+    },
+    {
+      "month": "2023_10",
+      "candidates": 15519,
+      "matched": 6045,
+      "scenario_pairs": 9829
+    },
+    {
+      "month": "2023_11",
+      "candidates": 15015,
+      "matched": 4082,
+      "scenario_pairs": 6396
+    },
+    {
+      "month": "2023_12",
+      "candidates": 15519,
+      "matched": 6182,
+      "scenario_pairs": 9954
+    },
+    {
+      "month": "2024_01",
+      "candidates": 15519,
+      "matched": 5907,
+      "scenario_pairs": 8879
+    },
+    {
+      "month": "2024_02",
+      "candidates": 14511,
+      "matched": 6356,
+      "scenario_pairs": 10449
+    },
+    {
+      "month": "2024_03",
+      "candidates": 15519,
+      "matched": 5635,
+      "scenario_pairs": 8439
+    },
+    {
+      "month": "2024_04",
+      "candidates": 15015,
+      "matched": 5440,
+      "scenario_pairs": 8185
+    },
+    {
+      "month": "2024_05",
+      "candidates": 15519,
+      "matched": 3419,
+      "scenario_pairs": 4754
+    },
+    {
+      "month": "2024_06",
+      "candidates": 15015,
+      "matched": 4240,
+      "scenario_pairs": 6308
+    },
+    {
+      "month": "2024_07",
+      "candidates": 15519,
+      "matched": 3089,
+      "scenario_pairs": 4384
+    },
+    {
+      "month": "2024_08",
+      "candidates": 15519,
+      "matched": 4750,
+      "scenario_pairs": 7035
+    },
+    {
+      "month": "2024_09",
+      "candidates": 15015,
+      "matched": 3293,
+      "scenario_pairs": 5137
+    },
+    {
+      "month": "2024_10",
+      "candidates": 15519,
+      "matched": 5344,
+      "scenario_pairs": 8487
+    },
+    {
+      "month": "2024_11",
+      "candidates": 15015,
+      "matched": 4781,
+      "scenario_pairs": 7650
+    },
+    {
+      "month": "2024_12",
+      "candidates": 15519,
+      "matched": 6579,
+      "scenario_pairs": 11062
+    },
+    {
+      "month": "2025_01",
+      "candidates": 15519,
+      "matched": 5238,
+      "scenario_pairs": 8273
+    },
+    {
+      "month": "2025_02",
+      "candidates": 14007,
+      "matched": 4915,
+      "scenario_pairs": 7816
+    },
+    {
+      "month": "2025_03",
+      "candidates": 15519,
+      "matched": 5592,
+      "scenario_pairs": 8879
+    },
+    {
+      "month": "2025_04",
+      "candidates": 15015,
+      "matched": 3661,
+      "scenario_pairs": 5239
+    },
+    {
+      "month": "2025_05",
+      "candidates": 15519,
+      "matched": 3021,
+      "scenario_pairs": 4541
+    },
+    {
+      "month": "2025_06",
+      "candidates": 15015,
+      "matched": 4665,
+      "scenario_pairs": 7134
+    },
+    {
+      "month": "2025_07",
+      "candidates": 15519,
+      "matched": 3126,
+      "scenario_pairs": 4339
+    },
+    {
+      "month": "2025_08",
+      "candidates": 15519,
+      "matched": 4666,
+      "scenario_pairs": 7049
+    },
+    {
+      "month": "2025_09",
+      "candidates": 15015,
+      "matched": 3188,
+      "scenario_pairs": 4390
+    },
+    {
+      "month": "2025_10",
+      "candidates": 15414,
+      "matched": 5533,
+      "scenario_pairs": 9235
+    },
+    {
+      "month": "2025_11",
+      "candidates": 15015,
+      "matched": 4550,
+      "scenario_pairs": 6824
+    },
+    {
+      "month": "2025_12",
+      "candidates": 15519,
+      "matched": 5567,
+      "scenario_pairs": 8985
+    },
+    {
+      "month": "2026_01",
+      "candidates": 15414,
+      "matched": 6940,
+      "scenario_pairs": 11540
+    },
+    {
+      "month": "2026_02",
+      "candidates": 13902,
+      "matched": 5072,
+      "scenario_pairs": 7534
+    },
+    {
+      "month": "2026_03",
+      "candidates": 15519,
+      "matched": 5951,
+      "scenario_pairs": 9256
+    },
+    {
+      "month": "2026_04",
+      "candidates": 15015,
+      "matched": 4927,
+      "scenario_pairs": 7466
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "validation": {
+    "rows": 240,
+    "unique_windows": 238,
+    "turbines": 21,
+    "months": 3,
+    "by_family": {
+      "temperature": 40,
+      "electrical": 40,
+      "telemetry": 40,
+      "operation": 40,
+      "maintenance": 40,
+      "power": 40
+    },
+    "by_cohort": {
+      "post_tuneup_validation": 240
+    },
+    "excluded_prior_panels": [
+      "paired-qa/validation.parquet",
+      "paired-qa-evidence-first/validation.parquet",
+      "balanced-diagnostic-data/validation.parquet",
+      "runs/hill-checkpoint-comparison/prior-targeted-validation.parquet"
+    ],
+    "panel_sha256": "2f759213f32e8c3a764c1b7182d0233203165bc309e0100fa269736746e9e52b"
+  },
+  "test": {
+    "rows": 240,
+    "unique_windows": 240,
+    "turbines": 21,
+    "months": 16,
+    "by_family": {
+      "power": 40,
+      "maintenance": 40,
+      "operation": 40,
+      "temperature": 40,
+      "electrical": 40,
+      "telemetry": 40
+    },
+    "by_cohort": {
+      "pre_commissioning": 147,
+      "dynamic_yaw_commissioning": 37,
+      "dynamic_yaw_west_trial": 14,
+      "dynamic_yaw_west_and_east_trial": 42
+    },
+    "excluded_prior_panels": [
+      "paired-qa-evidence-first/test.parquet",
+      "evidence-continuation-data/focused/test.parquet",
+      "evidence-continuation-data/scale/test.parquet",
+      "balanced-diagnostic-data/test.parquet"
+    ],
+    "panel_sha256": "f5bd6a7b5b9f3d027bbbd42f43a55f625472c1b0870c1424ebb8f6a06ae2c40b"
+  },
+  "operator_transfer": {
+    "rows": 63,
+    "by_state": {
+      "generating_in_latest_interval": 16,
+      "mixed_or_transitional": 16,
+      "idle_or_stopped_at_cutoff": 16,
+      "visibility_unavailable": 12,
+      "state_unknown": 3
+    },
+    "by_cohort": {
+      "pre_commissioning": 16,
+      "dynamic_yaw_commissioning": 17,
+      "dynamic_yaw_west_trial": 12,
+      "dynamic_yaw_west_and_east_trial": 18
+    },
+    "source_test_windows": 242445,
+    "seed": 2402,
+    "panel_sha256": "5f684550ba0fef8bddd1d8e6d533e32abb0018a11c18da59ed1435ee6827e0ed"
+  }
+}

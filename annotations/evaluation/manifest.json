@@ -1,0 +1,27 @@
+{
+  "question": "What is this turbine doing now, what should I check next, and what would change the decision? Use the available telemetry and state any uncertainty.",
+  "signals": "Join to corpus/<month>/signals.parquet by station_id and [start_step, stop_step).",
+  "source": "https://zenodo.org/records/22662930",
+  "counts": {
+    "validation": {
+      "windows": 46053,
+      "state_counts": {
+        "generating_in_latest_interval": 36077,
+        "idle_or_stopped_at_cutoff": 1798,
+        "mixed_or_transitional": 8074,
+        "state_unknown": 6,
+        "visibility_unavailable": 98
+      }
+    },
+    "test": {
+      "windows": 242445,
+      "state_counts": {
+        "generating_in_latest_interval": 175349,
+        "idle_or_stopped_at_cutoff": 12690,
+        "mixed_or_transitional": 46773,
+        "state_unknown": 6,
+        "visibility_unavailable": 7627
+      }
+    }
+  }
+}

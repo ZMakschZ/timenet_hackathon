@@ -1,0 +1,76 @@
+{
+  "paired": {
+    "rows": 240,
+    "correct_labels": 220,
+    "pairs": 120,
+    "both_correct": 101,
+    "both_correct_with_guidance": 80,
+    "reference_measurements": 400,
+    "matched_measurements": 136,
+    "answers_with_unverified_measurements": 158,
+    "guidance_screen_passes": 218,
+    "by_family": {
+      "electrical": {
+        "rows": 40,
+        "correct": 29
+      },
+      "maintenance": {
+        "rows": 40,
+        "correct": 39
+      },
+      "operation": {
+        "rows": 40,
+        "correct": 40
+      },
+      "power": {
+        "rows": 40,
+        "correct": 40
+      },
+      "telemetry": {
+        "rows": 40,
+        "correct": 40
+      },
+      "temperature": {
+        "rows": 40,
+        "correct": 32
+      }
+    }
+  },
+  "evidence_first": {
+    "rows": 240,
+    "correct_labels": 203,
+    "pairs": 120,
+    "both_correct": 86,
+    "both_correct_with_guidance": 58,
+    "reference_measurements": 400,
+    "matched_measurements": 0,
+    "answers_with_unverified_measurements": 0,
+    "guidance_screen_passes": 209,
+    "by_family": {
+      "electrical": {
+        "rows": 40,
+        "correct": 22
+      },
+      "maintenance": {
+        "rows": 40,
+        "correct": 39
+      },
+      "operation": {
+        "rows": 40,
+        "correct": 37
+      },
+      "power": {
+        "rows": 40,
+        "correct": 40
+      },
+      "telemetry": {
+        "rows": 40,
+        "correct": 40
+      },
+      "temperature": {
+        "rows": 40,
+        "correct": 25
+      }
+    }
+  }
+}

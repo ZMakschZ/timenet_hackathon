@@ -1,0 +1,135 @@
+{
+  "training_order": [
+    "mcq",
+    "caption",
+    "trend"
+  ],
+  "corpus_source": "https://zenodo.org/records/22662930",
+  "views": {
+    "trend-train": {
+      "tasks": 100000,
+      "labels": {
+        "shortfall": 9776,
+        "tracking": 9776,
+        "generating": 9776,
+        "cooling": 11276,
+        "warming": 11276,
+        "idle": 9776,
+        "reporting": 7146,
+        "no error recorded": 8826,
+        "small spread": 3200,
+        "error present": 8826,
+        "wide spread": 3200,
+        "missing": 7146
+      },
+      "start": "2016-01-01T06:00:00+00:00",
+      "end": "2024-09-30T23:00:00+00:00"
+    },
+    "mcq-train": {
+      "tasks": 4000,
+      "labels": {
+        "decreased": 1333,
+        "stayed about the same": 1333,
+        "increased": 1334
+      },
+      "start": "2016-01-01T13:00:00+01:00",
+      "end": "2024-09-30T03:00:00+02:00"
+    },
+    "caption-train": {
+      "tasks": 4000,
+      "labels": {
+        "stayed about the same": 1333,
+        "decreased": 1333,
+        "increased": 1334
+      },
+      "start": "2016-01-01T17:00:00+01:00",
+      "end": "2024-09-30T16:00:00+02:00"
+    },
+    "trend-validation": {
+      "tasks": 120,
+      "labels": {
+        "no error recorded": 10,
+        "missing": 10,
+        "warming": 10,
+        "tracking": 10,
+        "idle": 10,
+        "error present": 10,
+        "shortfall": 10,
+        "generating": 10,
+        "reporting": 10,
+        "cooling": 10,
+        "small spread": 10,
+        "wide spread": 10
+      },
+      "start": "2024-10-03T16:00:00+00:00",
+      "end": "2024-12-31T14:00:00+00:00"
+    },
+    "mcq-validation": {
+      "tasks": 440,
+      "labels": {
+        "decreased": 190,
+        "increased": 187,
+        "stayed about the same": 63
+      },
+      "start": "2024-10-03T16:00:00+00:00",
+      "end": "2024-12-31T14:00:00+00:00"
+    },
+    "caption-validation": {
+      "tasks": 440,
+      "labels": {
+        "decreased": 190,
+        "increased": 187,
+        "stayed about the same": 63
+      },
+      "start": "2024-10-03T16:00:00+00:00",
+      "end": "2024-12-31T14:00:00+00:00"
+    },
+    "trend-test": {
+      "tasks": 240,
+      "labels": {
+        "tracking": 20,
+        "generating": 20,
+        "reporting": 20,
+        "no error recorded": 20,
+        "shortfall": 20,
+        "idle": 20,
+        "cooling": 20,
+        "wide spread": 20,
+        "warming": 20,
+        "error present": 20,
+        "small spread": 20,
+        "missing": 20
+      },
+      "start": "2025-01-01T22:00:00+00:00",
+      "end": "2026-04-29T02:00:00+00:00"
+    },
+    "mcq-test": {
+      "tasks": 864,
+      "labels": {
+        "decreased": 321,
+        "increased": 384,
+        "stayed about the same": 159
+      },
+      "start": "2025-01-01T22:00:00+00:00",
+      "end": "2026-04-29T02:00:00+00:00"
+    },
+    "caption-test": {
+      "tasks": 864,
+      "labels": {
+        "decreased": 321,
+        "increased": 384,
+        "stayed about the same": 159
+      },
+      "start": "2025-01-01T22:00:00+00:00",
+      "end": "2026-04-29T02:00:00+00:00"
+    }
+  },
+  "trend_sources": {
+    "train": "large-trend-data/qa.parquet",
+    "validation": "large-trend-data/validation.parquet",
+    "test": "evidence-continuation-data/focused/test.parquet"
+  },
+  "window_steps": 36,
+  "cadence_seconds": 600,
+  "full_outage_route": "availability_check"
+}
